@@ -12,3 +12,5 @@ while (guess != hemligtnummer):
     guess = int(input("Gissa en nummer mellan 1-100: "))
 print ("Du hade rätt!")
 print ("Det tog dig " +str(numGuesses) + " försök.")
+if numGuesses > 100:
+    print(f'Du är faktiskt sämst på det här.')
